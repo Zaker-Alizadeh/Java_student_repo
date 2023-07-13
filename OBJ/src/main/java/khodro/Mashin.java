@@ -1,6 +1,8 @@
-package Khodro;
+package khodro;
 
-public class Mashin {
+public class Mashin extends Khodro {
+
+    // extends یعنی از کلاس خودرو ارث بری کرده است
     // حالا برای کلاس ماشین خود یک  constructor ایجاد می کنیم
     public Mashin(String mark){
         this.mark = mark;
@@ -10,20 +12,13 @@ public class Mashin {
 
     //یک کلاس می تواند یک سری داده داشته باشد و می توانیم از تایپ های مختلف در آن استفاده کنیم
     // Data
-    public boolean ayaRoshanAst;
-    public boolean ayaDarBazAst;
+    boolean ayaDarBazAst;
     String mark;
     Ranandeh ranandeh;
 
 
     // و میتواند یک سری رفتار داشته
     //Behavior
-    public void roshan(){
-        ayaRoshanAst = true;
-    }
-    public void khamosh(){
-        ayaRoshanAst = false;
-    }
     public void bazbodandar(){
         ayaDarBazAst = true;
     }

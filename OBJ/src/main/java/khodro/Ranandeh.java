@@ -1,4 +1,4 @@
-package Khodro;
+package khodro;
 
 public class Ranandeh {
 }
