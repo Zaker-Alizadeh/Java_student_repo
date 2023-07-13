@@ -1,3 +1,4 @@
+import khodro.Khodro;
 import khodro.Mashin;
 import org.junit.jupiter.api.Test;
 
@@ -12,8 +13,8 @@ public class MashinTest {
     void Mashin_Bayaed_Haraket_Konad_Waqti_Mashin_Roshan_wa_dar_Baste_ast() {
         //یک object از ماشین میخواهیم درست کنیم
         //Given
-        Mashin benz = new Mashin("Benz");
-        Mashin volvo = new Mashin("Volvo");
+        Khodro benz = new Mashin("Benz");
+        Khodro volvo = new Mashin("Volvo");
 
         //When
         boolean HarekatMekonad = benz.ayaDarHaleHarekatAst();

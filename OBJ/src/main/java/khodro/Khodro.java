@@ -1,6 +1,6 @@
 package khodro;
 
-public class Khodro {
+public abstract class Khodro {
     boolean ayaRoshanAst;
 
     public void roshan(){
@@ -10,4 +10,6 @@ public class Khodro {
         ayaRoshanAst = false;
     }
 
+    public abstract boolean ayaDarHaleHarekatAst();
+        // میتوانیم میتودی داشته باشیم که هیچ نوع جزئیاتی داخلش نباشه مثل همین کلاس از کلمه abstract استفاده می نمایم
 }
