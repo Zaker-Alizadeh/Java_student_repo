@@ -14,8 +14,18 @@ public class Mashin extends Khodro implements SandoqDar,Girbox{
     //یک کلاس می تواند یک سری داده داشته باشد و می توانیم از تایپ های مختلف در آن استفاده کنیم
     // Data
     boolean ayaDarBazAst;
+    int gonjayeshSandoq;
+    String noeDande;
     String mark;
     Ranandeh ranandeh;
+
+    public Mashin(String mark, int gonjayeshSandoq, String noeDande) {
+        this.mark = mark;
+        this.gonjayeshSandoq = gonjayeshSandoq;
+        this.noeDande = noeDande;
+
+
+    }
 
 
     // و میتواند یک سری رفتار داشته
@@ -34,6 +44,11 @@ public class Mashin extends Khodro implements SandoqDar,Girbox{
         else {
             return false;
         }
+    }
+
+    @Override
+    public String getMark() {
+        return getMark();
     }
 
     @Override

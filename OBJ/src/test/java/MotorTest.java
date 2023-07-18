@@ -10,7 +10,12 @@ public class MotorTest {
 
         // چون موتور در جمع خودرو حساب می شود چون یک رابطه is a  بین موتور و ماشین وجود دارد
         // و زمانی که یک کلاس abstract شد دیگه نمی توانیم از آن کلاس یک نمونه جدید درست کنیم
-        Khodro motor = new Motor();
+        Khodro motor = new Motor() {
+            @Override
+            public String getMark() {
+                return null;
+            }
+        };
         //  Khodro khodro = new Khodro(); دیکر یک نمونه جدید درست نمیتونیم
 
         //When

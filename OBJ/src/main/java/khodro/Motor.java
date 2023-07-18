@@ -1,6 +1,6 @@
 package khodro;
 
-public class Motor extends Khodro {
+public abstract class Motor extends Khodro {
     // این کلاس  هم از کلاس خودرو ارث بری کرده است
 
 

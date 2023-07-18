@@ -11,5 +11,7 @@ public abstract class Khodro {
     }
 
     public abstract boolean ayaDarHaleHarekatAst();
-        // میتوانیم میتودی داشته باشیم که هیچ نوع جزئیاتی داخلش نباشه مثل همین کلاس از کلمه abstract استفاده می نمایم
+
+    public abstract String getMark();
+    // میتوانیم میتودی داشته باشیم که هیچ نوع جزئیاتی داخلش نباشه مثل همین کلاس از کلمه abstract استفاده می نمایم
 }
